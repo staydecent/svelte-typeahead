@@ -1,0 +1,29 @@
+{
+  "name": "svelte-typeahead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copyfiles": "cp index.html dist/index.html",
+    "dev": "npm run copyfiles && rollup -c -w",
+    "start": "http-server dist & npm run dev",
+    "test": "standard"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "Adrian Unger",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "http-server": "^0.9.0",
+    "rollup": "^0.36.4",
+    "rollup-plugin-buble": "^0.14.0",
+    "rollup-plugin-svelte": "^1.0.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^2.5.0",
+    "standard": "^8.6.0"
+  }
+}
